@@ -156,7 +156,7 @@ if st.button("Summarize the Content from YT or Website"):
                 # GROQ LLM
 
                 llm = ChatGroq(
-                    model="llama-3.1-8b-instant",
+                    model="openai/gpt-oss-20b",
                     groq_api_key=groq_api_key
                 )
 
